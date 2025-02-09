@@ -34,6 +34,19 @@ fun main(){
 
 
 
+//Assignment 3
+    println("Assignment 3")
 
+
+    val products = listOf(
+        Shoe("Nike's in the Air", 120.0, 5),
+        TShirt("Cotton-eye Tee", 25.0, 10),
+        Book("Kotlin for Ducks", 40.0, 3)
+    )
+
+    for (product in products) {
+        println(product)
+        product.identifyProductCategory()
+    }
 
 }
